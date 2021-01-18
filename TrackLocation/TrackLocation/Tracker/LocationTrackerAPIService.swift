@@ -10,7 +10,7 @@ import Foundation
 struct LTAPIServices {
     static func saveData(userLocationData: UserLocationData,
                          completionHandler: @escaping (Bool) -> Void) {
-        let urlString = "https://lb6iq9higg.execute-api.ap-south-1.amazonaws.com/dev99d"
+        let urlString = "<cloud url>"
         let startTime = userLocationData.time
         guard let url = URL(string: urlString) else { return }
         var request = URLRequest(url: url)
