@@ -30,8 +30,8 @@ class LocationTrackerViewController: UIViewController {
     private var startTime: Date?
     private var initialLocation: CLLocation?
     private var updatedDataCount: Int = 0
-    var interactor: LocationTrackerInteractor?
-    var router: LocationTrackerRouter?
+    var interactor: LocationTrackerBusinessLogic?
+    var router: LocationTrackerRouterLogic?
     
     override func viewDidLoad() {
         super.viewDidLoad()
