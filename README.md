@@ -35,6 +35,9 @@ It routes from one screen to another.
 CONFIGURATOR:
 It configures viewcontroller, presenter, interactor and router.
 
+INTERFACE:
+It has all the protocols needed for the architecture.
+
 # FUTURE SCOPE
 1. Unit Test Cases
 2. UI Test Cases
