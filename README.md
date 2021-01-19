@@ -11,8 +11,10 @@ https://drive.google.com/file/d/1AcSrPtEnAFIkegPBjQHpWdKCdbq3oHpY/view?usp=shari
  If user doesn't move or if user walks slowly, the user is updated about his location every 30 seconds and the distance is reset to 0mts once the location is shown to user.
  
  # DataBase used:
-# The data is saved in aws cloud. (Please note currently the link to server is not added in the code to avoid huge aws billing.)
+## The data is saved in aws cloud(RDS). (Please note currently the link to server is not added in the code to avoid huge aws billing.)
 MySQL DataBase in AWS is used to store data. The API is a post API created using API gateway and Lambda function.
+
+## There is another functionality to save data in coreData. However, currently we are using AWS(RDS)
 
 # Architecture:
 CLEAN Architecture has been used in this application. In this, we have following components:
