@@ -1,4 +1,5 @@
-# LocationTracker- Demo
+# LocationTracker
+Below is the link for the demo of location tracker application.
 https://drive.google.com/file/d/1AcSrPtEnAFIkegPBjQHpWdKCdbq3oHpY/view?usp=sharing
 
 "Location Tracker" is an app which tracks users location every 30 seconds or when user moves 200mts. 
