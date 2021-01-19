@@ -2,7 +2,7 @@
 https://drive.google.com/file/d/1AcSrPtEnAFIkegPBjQHpWdKCdbq3oHpY/view?usp=sharing
 
 "Location Tracker" is an app which tracks users location every 30 seconds or when user moves 200mts. 
- Please note, our application will track your location in background too.
+ Please note, the application tracks your location in background too.
  The location with timeStamp is saved in a Database.
  The user is updated about the total uploads of data of that day and the time of the last upload in our DataBase 
  
@@ -11,10 +11,10 @@ https://drive.google.com/file/d/1AcSrPtEnAFIkegPBjQHpWdKCdbq3oHpY/view?usp=shari
  
  # DataBase used:
 # The data is saved in aws cloud. (Please note currently the link to server is not added in the code to avoid huge aws billing.)
-I have used MySQL Database in aws. The API is a post API created using API gateway and Lambda function.
+MySQL DataBase in AWS is used to store data. The API is a post API created using API gateway and Lambda function.
 
 # Architecture:
-We are using CLEAN Architecture. In this, we have following components:
+CLEAN Architecture has been used in this application. In this, we have following components:
 1. ViewController
 2. Interactor
 3. Presenter
