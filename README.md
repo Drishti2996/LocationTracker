@@ -41,7 +41,7 @@ INTERFACE:
 It has all the protocols needed for the architecture.
 
 # FUTURE SCOPE
-1. Unit Test Cases
+1. Improve Unit Test Coverage
 2. UI Test Cases
 3. Language Handler to handle multiple languages
 
