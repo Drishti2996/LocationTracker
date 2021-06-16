@@ -2,8 +2,8 @@ import UIKit
 import CoreData
 
 class LocationTrackerInteractor: LocationTrackerBusinessLogic {
-    let presenter: LocationTrackerPresenterLogic?
-    init(presenter: LocationTrackerPresenterLogic) {
+    let presenter: LocationTrackerPresentationLogic?
+    init(presenter: LocationTrackerPresentationLogic) {
         self.presenter = presenter
     }
     

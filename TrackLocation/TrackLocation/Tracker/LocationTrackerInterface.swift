@@ -5,7 +5,7 @@ protocol LocationTrackerBusinessLogic {
     func saveDataInCloud(userLocationData: UserLocationData)
 }
 
-protocol LocationTrackerPresenterLogic {
+protocol LocationTrackerPresentationLogic {
     func updateUserLocationData(uploadCount: Int, time: String)
     func genericErrorScreen()
 }

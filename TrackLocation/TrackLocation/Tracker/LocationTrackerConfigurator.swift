@@ -2,7 +2,7 @@ import UIKit
 
 struct LocationTrackerConfigurator {
     // create Location Tracker view controller
-    static func createViewController() -> UIViewController {
+    static func createViewController() -> LocationTrackerViewController {
         let viewController = LocationTrackerViewController()
         let presenter = LocationTrackerPresenter()
         let interactor = LocationTrackerInteractor(presenter: presenter)

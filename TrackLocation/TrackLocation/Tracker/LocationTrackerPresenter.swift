@@ -1,6 +1,6 @@
 import UIKit
 
-class LocationTrackerPresenter: LocationTrackerPresenterLogic {
+class LocationTrackerPresenter: LocationTrackerPresentationLogic {
     weak var viewController: LocationTrackerDisplayLogic?
     
     // MARK: - to show upload count and time data

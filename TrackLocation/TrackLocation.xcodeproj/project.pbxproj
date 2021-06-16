@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		363EA76F25B5F9C2001E73CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA76E25B5F9C2001E73CA /* AppDelegate.swift */; };
 		363EA77125B5F9C2001E73CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA77025B5F9C2001E73CA /* SceneDelegate.swift */; };
-		363EA77325B5F9C2001E73CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA77225B5F9C2001E73CA /* ViewController.swift */; };
 		363EA77625B5F9C2001E73CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363EA77425B5F9C2001E73CA /* Main.storyboard */; };
 		363EA77B25B5F9C6001E73CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363EA77A25B5F9C6001E73CA /* Assets.xcassets */; };
 		363EA77E25B5F9C6001E73CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363EA77C25B5F9C6001E73CA /* LaunchScreen.storyboard */; };
-		363EA78925B5F9C6001E73CA /* TrackLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA78825B5F9C6001E73CA /* TrackLocationTests.swift */; };
 		363EA79425B5F9C6001E73CA /* TrackLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA79325B5F9C6001E73CA /* TrackLocationUITests.swift */; };
 		363EA7B725B5FB83001E73CA /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA7AD25B5FB83001E73CA /* Utility.swift */; };
 		363EA7B825B5FB83001E73CA /* LocationTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA7AE25B5FB83001E73CA /* LocationTrackerViewController.swift */; };
@@ -25,6 +23,10 @@
 		363EA7BE25B5FB83001E73CA /* LocationTrackerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA7B425B5FB83001E73CA /* LocationTrackerConfigurator.swift */; };
 		363EA7BF25B5FB83001E73CA /* TrackLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 363EA7B525B5FB83001E73CA /* TrackLocation.xcdatamodeld */; };
 		363EA7E625B61868001E73CA /* LocationTrackerAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363EA7E525B61868001E73CA /* LocationTrackerAPIService.swift */; };
+		EF034CFF26164F0200ACC173 /* LocationTrackerConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF034CFE26164F0200ACC173 /* LocationTrackerConfiguratorTest.swift */; };
+		EF034D02261653E300ACC173 /* LocationTrackerInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF034D01261653E300ACC173 /* LocationTrackerInteractorTest.swift */; };
+		EF034D04261654AB00ACC173 /* MockTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF034D03261654AB00ACC173 /* MockTracker.swift */; };
+		EF034D0626165A5200ACC173 /* LocationTrackerPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF034D0526165A5200ACC173 /* LocationTrackerPresenterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +50,11 @@
 		363EA76B25B5F9C2001E73CA /* TrackLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		363EA76E25B5F9C2001E73CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		363EA77025B5F9C2001E73CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		363EA77225B5F9C2001E73CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		363EA77525B5F9C2001E73CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		363EA77A25B5F9C6001E73CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		363EA77D25B5F9C6001E73CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		363EA77F25B5F9C6001E73CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363EA78425B5F9C6001E73CA /* TrackLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		363EA78825B5F9C6001E73CA /* TrackLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLocationTests.swift; sourceTree = "<group>"; };
 		363EA78A25B5F9C6001E73CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363EA78F25B5F9C6001E73CA /* TrackLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363EA79325B5F9C6001E73CA /* TrackLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLocationUITests.swift; sourceTree = "<group>"; };
@@ -69,6 +69,11 @@
 		363EA7B425B5FB83001E73CA /* LocationTrackerConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackerConfigurator.swift; sourceTree = "<group>"; };
 		363EA7B625B5FB83001E73CA /* TrackLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackLocation.xcdatamodel; sourceTree = "<group>"; };
 		363EA7E525B61868001E73CA /* LocationTrackerAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerAPIService.swift; sourceTree = "<group>"; };
+		EF034CFE26164F0200ACC173 /* LocationTrackerConfiguratorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerConfiguratorTest.swift; sourceTree = "<group>"; };
+		EF034D002616517700ACC173 /* TrackLocationTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackLocationTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF034D01261653E300ACC173 /* LocationTrackerInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerInteractorTest.swift; sourceTree = "<group>"; };
+		EF034D03261654AB00ACC173 /* MockTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTracker.swift; sourceTree = "<group>"; };
+		EF034D0526165A5200ACC173 /* LocationTrackerPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerPresenterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +127,6 @@
 				363EA7C325B5FB9A001E73CA /* Tracker */,
 				363EA76E25B5F9C2001E73CA /* AppDelegate.swift */,
 				363EA77025B5F9C2001E73CA /* SceneDelegate.swift */,
-				363EA77225B5F9C2001E73CA /* ViewController.swift */,
 				363EA77425B5F9C2001E73CA /* Main.storyboard */,
 				363EA77A25B5F9C6001E73CA /* Assets.xcassets */,
 				363EA77C25B5F9C6001E73CA /* LaunchScreen.storyboard */,
@@ -135,7 +139,7 @@
 		363EA78725B5F9C6001E73CA /* TrackLocationTests */ = {
 			isa = PBXGroup;
 			children = (
-				363EA78825B5F9C6001E73CA /* TrackLocationTests.swift */,
+				EF034CFC26164ECD00ACC173 /* Tracker */,
 				363EA78A25B5F9C6001E73CA /* Info.plist */,
 			);
 			path = TrackLocationTests;
@@ -162,6 +166,18 @@
 				363EA7B225B5FB83001E73CA /* LocationTrackerRouter.swift */,
 				363EA7AE25B5FB83001E73CA /* LocationTrackerViewController.swift */,
 				363EA7AD25B5FB83001E73CA /* Utility.swift */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		EF034CFC26164ECD00ACC173 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				EF034D002616517700ACC173 /* TrackLocationTests-Bridging-Header.h */,
+				EF034CFE26164F0200ACC173 /* LocationTrackerConfiguratorTest.swift */,
+				EF034D01261653E300ACC173 /* LocationTrackerInteractorTest.swift */,
+				EF034D03261654AB00ACC173 /* MockTracker.swift */,
+				EF034D0526165A5200ACC173 /* LocationTrackerPresenterTest.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -236,6 +252,7 @@
 					};
 					363EA78325B5F9C6001E73CA = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1130;
 						TestTargetID = 363EA76A25B5F9C2001E73CA;
 					};
 					363EA78E25B5F9C6001E73CA = {
@@ -301,7 +318,6 @@
 				363EA7B725B5FB83001E73CA /* Utility.swift in Sources */,
 				363EA7B925B5FB83001E73CA /* LocationTrackerPresenter.swift in Sources */,
 				363EA7BE25B5FB83001E73CA /* LocationTrackerConfigurator.swift in Sources */,
-				363EA77325B5F9C2001E73CA /* ViewController.swift in Sources */,
 				363EA7BD25B5FB83001E73CA /* LocationTrackerInteractor.swift in Sources */,
 				363EA76F25B5F9C2001E73CA /* AppDelegate.swift in Sources */,
 				363EA77125B5F9C2001E73CA /* SceneDelegate.swift in Sources */,
@@ -316,7 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				363EA78925B5F9C6001E73CA /* TrackLocationTests.swift in Sources */,
+				EF034D04261654AB00ACC173 /* MockTracker.swift in Sources */,
+				EF034D02261653E300ACC173 /* LocationTrackerInteractorTest.swift in Sources */,
+				EF034D0626165A5200ACC173 /* LocationTrackerPresenterTest.swift in Sources */,
+				EF034CFF26164F0200ACC173 /* LocationTrackerConfiguratorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +541,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrackLocationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -532,6 +552,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.drishti.TrackLocationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrackLocationTests/Tracker/TrackLocationTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackLocation.app/TrackLocation";
@@ -543,6 +565,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrackLocationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -553,6 +576,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.drishti.TrackLocationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrackLocationTests/Tracker/TrackLocationTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackLocation.app/TrackLocation";
